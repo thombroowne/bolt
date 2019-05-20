@@ -56,14 +56,13 @@ a {
    color: #777;
    font-size: 15px;
    float: left;
-   padding-left: 15px;
 }
 .hader__logo:hover { opacity: 0.8; }
 .header__menu {
   position: relative;
   float: right;
-
 }
+
 .header__btn {
    display: block;
    font-size: 14px;
@@ -97,7 +96,7 @@ a {
 }
 
 .what__inner {
-   padding: 50px 0 0 0;
+   padding: 50px 0 25px;
    color: #fff;
    margin: 0 auto;
    background-color: #74cfae;
@@ -187,6 +186,7 @@ ul.work__img__list a:hover { opacity: 5; }
 .grid__col-3 {
    width: 25%;
    float: right;
+   margin-top: 40px;
  }
 
 
@@ -218,12 +218,12 @@ ul.work__img__list a:hover { opacity: 5; }
 }
 
 .sns__inner {
-   margin: 200px 0;
+   padding: 200px 0;
    background-color: #f2f2f2;
 }
 .sns__list > li {
    display: inline-block;
-   width: 23%;
+   width: 25%;
 }
 .sns__link {
    display: block;
@@ -256,32 +256,23 @@ div.footer__inner p {
    }
 
    .what__inner{
-     padding-top: 50px 0 25px;
+     padding: 50px 0 25px;
      text-align: center;
    }
    .grid__col-5{
      float: none;
-     margin-bottom: 20px;
    }
    .grid__col-7{
      width: 100%;
-     margin-top: 20px;
+
    }
    .grid__col-3{
      float: none;
    }
-   .what__caption{
-     margin-bottom: 25px;
-   }
-
-   .work__title{
-     margin-top: 60px;
-     margin-bottom: 40px;
-   }
 
    .work__img__list{
      width:300px;
-     margin: 0 auto;
+     margin: 0 auto 80px;
    }
 
    ul.work__img__list > li {
@@ -290,7 +281,7 @@ div.footer__inner p {
  }
 
 
- ul.work__img__list > li:nth-child(3n+1){
+ ul.work__img__list > li:nth-child(3n+4){
    margin-top: 80px;
  }
 
@@ -298,9 +289,6 @@ div.footer__inner p {
    margin-top: 80px;
  }
 
-.grid__col-3{
-  margin-top: 80px;
-}
 
 .skill__img{
   margin: 88px auto 0;
@@ -310,9 +298,7 @@ div.footer__inner p {
 .skill__img:first-child{
   margin: 0 auto;
 }
-.wb{
-  margin-top: 40px;
-}
+
 }
 
 
@@ -328,40 +314,35 @@ div.footer__inner p {
     border-radius: 4px;
   }
 
-.header__menu:after {
-  content: "\f0c9";
-  font-family: FontAwesome;
-  font-size: 20px;
-}
+
 
 .header__btn {
   display: none;
 }
 
-  }
+
   .keyvisual{
-  margin: 160px 0 130px;
+  padding: 160px 0 130px;
   font-size: 80px;
   }
 
-  .keyvisual__caption{
-    margin: 20px;
-  }
   .grid__col-5{
   width: 100%;
   }
+
+  .grid__col-3{
+  width: auto;
+  }
   .sns__list > li {
      display: block;
-     margin: 0 15px;
      width: 100%;
      text-align: center;
   }
   .sns__inner{
-    margin: 50px;
+    margin: 50px 0;
   }
   .sns__link {
      transition: 0.3s;
   }
 
   }
-}
