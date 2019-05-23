@@ -41,7 +41,7 @@
   }
 
 
-  .nav-toggle{
+  .nav-toggl {
     display: none;
   }
 
@@ -63,7 +63,9 @@
   }
 
 
-.header__inner { padding: 15px 0; }
+  .header__inner {
+    padding: 15px 0;
+  }
 
 
   .header__logo {
@@ -401,7 +403,7 @@
 }
 
 
-@media screen and(max-width: 767px){
+@media screen and (max-width: 767px){
 
   .inner{
     width:97%;
